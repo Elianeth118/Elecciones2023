@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnNuevaAlianza"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/eli"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="Elecciones 2023"
+        android:textStyle="bold"
+        android:textColor="@color/eli2"
+        android:textSize="35dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+
+            <ImageButton
+                android:id="@+id/btnMovCiudadano"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/movimientociudadano" />
+
+            <ImageButton
+                android:id="@+id/btnMorena"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/morena" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btnPan"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/pan" />
+
+            <ImageButton
+                android:id="@+id/btnnuevaal"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/nuevalianza" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btnPRD"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/prd1" />
+
+            <ImageButton
+                android:id="@+id/btnVerde"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/partidoverde" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btnPRI"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/pri" />
+
+            <ImageButton
+                android:id="@+id/btnPT"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/pt" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnResultados"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Resultados"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>
